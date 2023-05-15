@@ -35,15 +35,22 @@
 <%--    </div>--%>
 
 <%--</form>--%>
-<form action="/Change_money_Servlet" method="post">
-    <div class="stair">
-        <label>
-            <input type="number" name="usd" placeholder="usd">
-            <input type="number" name="change" value="23000">
-            <input type="submit" name="change">
-        </label>
+<%--<form action="/Change_money_Servlet" method="post">--%>
+<%--    <div class="stair">--%>
+<%--        <label>--%>
+<%--            <input type="number" name="usd" placeholder="usd">--%>
+<%--            <input type="number" name="change" value="23000">--%>
+<%--            <input type="submit" name="change">--%>
+<%--        </label>--%>
 
-    </div>
+<%--    </div>--%>
+<%--</form>--%>
+<form action="/DictionaryServlet" method="post">
+    <h2>Viet Nam Dictionary</h2>
+    <label>
+        <input type="text" name="English" placeholder="your change enter">
+        <input type="submit" name="search" id="search">
+    </label>
 
 </form>
 </body>

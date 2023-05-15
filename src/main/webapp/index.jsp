@@ -5,9 +5,13 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<form action="/dictionary" method="post">
-    <label><input type="text" name="textSearch" placeholder="enter your change search"></label>
-    <label><input type="submit" id="submit" name="search"></label>
+<form action="/product" method="post">
+    <div class="products">
+        <label><input type="text" name="productname" placeholder="productName"></label>
+        <label><input type="number" name="price" placeholder="price"></label>
+        <label><input type="number" name="discount" placeholder="discount"></label>
+        <label><input type="submit" name="calculate" id="submit"></label>
+    </div>
 </form>
 </body>
 </html>
